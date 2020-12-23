@@ -1,5 +1,5 @@
 body {
-    
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,19 +10,19 @@ body {
 }
 
 .container {
-    
+
     position: relative;
     background-image: url(/images/fishfarm.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    
-    
+
+
 }
 
 .inner {
-    
+
     position: absolute;
     top: 0;
     left: 0;
@@ -31,63 +31,76 @@ body {
     background: rgba(0, 0, 0, 0.7);
     text-align: center;
     padding-top: 50px;
-    
-    
+
+
 }
 
 .header h1 {
-    
+
     font-size: 80px;
     margin-top: 10%;
     margin-bottom: 0;
     font-weight: 1000;
-    
+
 }
 
 span {
-    
+
     color: burlywood;
-    
+
 }
 
 .launch h2 {
-    
+
     font-size: 40px;
     margin-top: 5%;
     font-weight: 700;
-    
+
 }
 
 hr {
-    
+
     width: 60%;
     margin: 0 auto;
     border: 3px solid #807e1e;
 }
 
 @media only screen and (max-width:600px) {
-    
+
     .header h1 {
-        
+
         font-size: 40px;
-            padding-top: 50px;
+        padding-top: 50px;
 
     }
-    
+
     .launch h2 {
-        
-        margin-top: 30px;
+
+        margin-top: 40px;
+        padding: 20px;
         font-size: 25px;
     }
-    
+
     .inner {
-    
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .container {
+
+        position: relative;
+        background-image: url(/images/fishfarm.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
         
+
+
     }
 }
-
